@@ -64,7 +64,7 @@ body {
   font-family: "Roboto", sans-serif;
   --base-color: #696969;
   --heading-color: #0A0807;
-  --primary-color: #AB6034;
+  --primary-color: #ed1c24;
   --lighter-color: #F4F2F1;
   --black-color: #0C0B0B;
   --border-color: #D9DFE7; }
@@ -630,7 +630,7 @@ a.theme-btn {
   margin-right: -5px; }
   .ratting i {
     margin: 5px;
-    color: #AB6034; }
+    color: #ed1c24; }
 
 /*** Slick Arrows ***/
 .slick-arrow {
@@ -7535,5 +7535,8 @@ blockquote {
     }
 
 .navigation .active a{
-  color: #AB6034 !important;
+  color: var(--primary-color) !important;
+}
+.main-header.header-white .main-menu .navigation > li > a:hover{
+  color: var(--primary-color);
 }
