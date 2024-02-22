@@ -7540,3 +7540,7 @@ blockquote {
 .main-header.header-white .main-menu .navigation > li > a:hover{
   color: var(--primary-color);
 }
+
+.counter-item .count-text1:after {
+  content: ' Km' !important;
+}
