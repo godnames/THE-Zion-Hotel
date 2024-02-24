@@ -3165,7 +3165,7 @@ h6, .h6 {
     justify-content: flex-end; } }
 
 .nav-outer {
-  margin-left: auto; }
+  margin-left: auto !important; }
   @media only screen and (max-width: 991px) {
     .nav-outer {
       width: 100%; } }
@@ -3369,7 +3369,7 @@ h6, .h6 {
   -ms-flex-align: center;
   align-items: center; }
   .menu-btns .theme-btn {
-    margin-left: 35px; }
+    margin-left: 25px; }
     @media only screen and (max-width: 1199px) {
       .menu-btns .theme-btn {
         display: none; } }
