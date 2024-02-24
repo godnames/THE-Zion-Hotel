@@ -329,7 +329,7 @@
                 autoplaySpeed: 2000,
                 arrows: false,
                 speed: 1000,
-                slidesToShow: 4,
+                slidesToShow: 3,
                 variableWidth: false,
                 focusOnSelect: false,
                 responsive: [
