@@ -83,9 +83,9 @@
             });
             
             //Disable dropdown parent link
-            $('.navigation li.dropdown > a').on('click', function (e) {
-                e.preventDefault();
-            });
+            // $('.navigation li.dropdown > a').on('click', function (e) {
+            //     e.preventDefault();
+            // });
         }
         
         // Submenu Dropdown Toggle

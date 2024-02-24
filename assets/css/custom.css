@@ -1,0 +1,25 @@
+.shopping-bag  i{
+    font-size: 20px;
+    color: white;
+    
+}
+.shopping-bag  a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.shopping-bag a:hover{
+    color: #ed1c24;
+}
+.shopping-bag i:hover{
+    color: #ed1c24;
+}
+@media only screen and (min-width: 992px)
+{
+    .shopping-bag  {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: flex;
+    }
+}
+
