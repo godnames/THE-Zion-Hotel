@@ -1,10 +1,10 @@
 .shopping-bag  i{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     
 }
 .shopping-bag  a{
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 500;
 }
@@ -25,4 +25,15 @@
 .shopping-bag{
     margin-left: 0px;
 }
+.table{
+    border: 1px rgb(126, 124, 124) solid;
+}
 
+.waitingForConnection {
+    animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+@keyframes blinker { to { opacity: 0;
+color: red; } }
+.copyright-text-right p{
+    color: white;
+}
