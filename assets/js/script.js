@@ -655,3 +655,11 @@ if (jQuery('.room-calendar').length) {
         calendar.render();
     });
 }
+
+
+
+function BookEngine() {
+    
+    var BookEngineURL = "https://app.axisrooms.com/beV2/displaySearchResultV3.html?applicableDealId=0&dayUse=false&room_number=0&searchPageList=true&login=false&allHotels=true&searcherId=51108310&searchNumber=1";
+    window.open(BookEngineURL);
+}
