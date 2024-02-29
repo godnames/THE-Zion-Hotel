@@ -29,11 +29,4 @@
     border: 1px rgb(126, 124, 124) solid;
 }
 
-.waitingForConnection {
-    animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-  }
-@keyframes blinker { to { opacity: 0;
-color: red; } }
-.copyright-text-right p{
-    color: white;
-}
+
