@@ -41,11 +41,68 @@
         visibility: visible;
     }
 }
-.menu-header-social-media{
-    margin-left: 800px;
+.menu-header-phone{
+    margin-left: 650px;
+}
+.menu-header-social-media {
+    margin-left: 10px;
 }
 .shopping-bag{
     padding: 12px;
     margin-left: 30px;
 }
+.top-menubar-location a {
+    display: flex;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.top-menubar-location a:hover{
+    color: #ed1c24;
+}
+.top-menubar-location a span{
+    padding-left: 12px;
+    
+}
+.top-menubar-location a i{
+    align-self: center;
+}
+.top-menubar-location{
+    margin-left: 20px;
+}
+.header-black{
+    background-color: black;
+}
+.menu-header-social-media a i{
+    color: white;
+}
 
+@media only screen and (max-width: 991px){
+    .main-menu .phone-number > ul{
+        display: block;
+    padding: 25px 0;
+    overflow-x: hidden;
+    background: #FFFFFF;
+    }
+}
+.menu-header-social-media  a {
+    color: #B0AFAF;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background: #0C0B0B;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.menu-header-social-media  {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.top-main-menu, .top-main-menu .navbar-collapse{
+    height: 30px;
+}
