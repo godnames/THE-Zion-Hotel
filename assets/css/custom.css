@@ -112,8 +112,19 @@
     }
 }
 @media only screen and (max-width: 991px){
-    .top-main-menu .navbar-collapse{
+    /* .top-main-menu .navbar-collapse .top-menubar-location,
+    .top-main-menu .navbar-collapse .menu-header-social-media{
         visibility: hidden;
+    } */
+    
+     .top-main-menu .navbar-collapse{
+        visibility: hidden;
+    } 
+    .main-menu .menu-header-phone{
+        display: inline;
+    }
+    .header-black{
+        background: transparent;
     }
 }
 
