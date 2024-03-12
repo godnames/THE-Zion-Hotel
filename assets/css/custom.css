@@ -106,4 +106,14 @@
 .top-main-menu, .top-main-menu .navbar-collapse{
     height: 30px;
 }
+@media only screen and (max-width: 991ppx){
+    .menu-header-phone{
+        visibility: visible !important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .top-main-menu .navbar-collapse{
+        visibility: hidden;
+    }
+}
 
