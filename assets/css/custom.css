@@ -129,6 +129,18 @@
     }
 }
 .read-more{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    background: var(--lighter-color);
 }
 
+.read-more .btn.style:hover{
+    color: white;
+    background: #ed1c24;
+} 
+.read-more .btn.style{
+    width: 100%;
+    border: none;
+    background: var(--lighter-color);
+}

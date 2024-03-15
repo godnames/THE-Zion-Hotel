@@ -4868,9 +4868,9 @@ h6, .h6 {
     width: 100%;
     border: none;
     background: var(--lighter-color); }
-  .room-item:hover .theme-btn.style-two {
+  /* .room-item:hover .theme-btn.style-two {
     color: white;
-    background: var(--primary-color); }
+    background: var(--primary-color); } */
   .room-item.style-two {
     margin-bottom: 50px;
     -webkit-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.07);
