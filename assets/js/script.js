@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Qomfort - Hotel Booking HTML Template
-    Template URI: https://demo.webtend.net/html/qomfort/
+    Template Name: The Zion - Hotel Booking HTML Template
+    Template URI: https://demo.webtend.net/html/The Zion/
     Author: WebTend
     Author URI:  https://webtend.net/
     Version: 1.0
