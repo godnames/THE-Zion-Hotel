@@ -128,18 +128,19 @@
         background: transparent;
     }
 }
-.read-more{
+.read-more-room{
     margin-bottom: 10px;
     width: 100%;
     border: none;
     background: var(--lighter-color);
+    
 }
 
-.read-more .btn.style:hover{
+.read-more-room .btn.style:hover{
     color: white;
     background: #ed1c24;
 } 
-.read-more .btn.style{
+.read-more-room .btn.style{
     width: 100%;
     border: none;
     background: var(--lighter-color);
