@@ -1200,7 +1200,7 @@ h6, .h6 {
 
 .pt-130,
 .py-130 {
-  padding-top: 130px; }
+  padding-top: 100px; }
 
 .pt-135,
 .py-135 {
@@ -3186,7 +3186,10 @@ h6, .h6 {
     overflow: auto; } }
 
 .main-menu .navbar-collapse {
-  padding: 0px; }
+  padding: 10px;
+    word-spacing: 0.9px;
+    justify-content: center;
+ }
   .main-menu .navbar-collapse > ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3878,7 +3881,8 @@ h6, .h6 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+}
 
 .slick-active .slider-content * {
   -webkit-animation-name: fadeInUp;
@@ -4851,7 +4855,7 @@ h6, .h6 {
       text-transform: uppercase;
       background: var(--primary-color); }
   .room-item .content {
-    padding: 40px 50px; }
+    padding: 5px 50px; }
     @media only screen and (max-width: 991px) {
       .room-item .content {
         padding-left: 33px;
@@ -6539,7 +6543,9 @@ blockquote {
   transform: translateY(-80px);
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+left:60px;
+width:1200px; }
   @media only screen and (max-width: 1399px) {
     .search-filter-inner {
       padding-left: 30px;
@@ -7038,6 +7044,11 @@ blockquote {
     padding: 15px 0 0; }
     .accordion-item .accordion-body p:last-child {
       margin-bottom: 0; }
+      .effect{
+        color: #CDCDCD;
+        width: 280px;
+        font-size: 50px;
+      }
 
 /*******************************************************/
 /******************** ## Shop Area ********************/
